@@ -1,0 +1,17 @@
+.home-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #bdbdbd;
+}
+
+.seg-btn {
+  padding: 0.6rem 1rem;
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+  border: 2px solid white;
+  border-radius: 0.2rem;
+  background: transparent;
+}

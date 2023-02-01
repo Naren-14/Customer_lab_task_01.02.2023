@@ -1,0 +1,121 @@
+body {
+  --blue: #6495ed;
+  --white: #ffffff;
+  --header: #0abab5;
+  --red: #960018;
+  --white: #ffffff;
+  --black: #000000;
+  --green: #00ff00;
+  --submit: #50c878;
+  --footer: #f9f6ee;
+  --cancel: #d70527;
+}
+
+.left-arrow {
+  font-size: 1.5rem;
+}
+
+.input-para-2nd {
+  text-align: left;
+  padding: 1rem 3rem 1rem 0.2rem;
+}
+.input-container {
+  display: grid;
+  place-items: flex-start;
+  grid-row-gap: 1rem;
+  font-size: 0.9rem;
+  margin: 1rem 0.7rem;
+}
+.form-imput {
+  padding: 1rem 1rem;
+  margin: 0.5rem 0.5rem;
+  width: 410px;
+  border: 1px solid lightgrey;
+  border-radius: 0.2rem;
+}
+input:focus {
+  outline: none;
+}
+
+.header-container {
+  background: var(--header);
+  display: flex;
+  align-items: center;
+  color: var(--white);
+  text-align: left;
+  padding: 1rem 0.5rem;
+  font-size: 1rem;
+}
+
+.model-main-container {
+  position: absolute;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  margin: auto;
+  z-index: 10;
+  max-width: 550px;
+  height: 100vh;
+  background: var(--white);
+}
+
+ul {
+  list-style: none;
+  width: 95%;
+  justify-content: end;
+  display: flex;
+  gap: 1rem;
+}
+
+.user::before {
+  content: "\2022";
+  margin: 0.5rem;
+  color: var(--green);
+  font-weight: bold;
+}
+
+.group::before {
+  content: "\2022";
+  margin: 0.5rem;
+  color: var(--red);
+  font-weight: bold;
+}
+
+.footer-container {
+  background: var(--footer);
+  display: flex;
+}
+
+.submit-btn {
+  padding: 0.8rem;
+  margin: 1.5rem 0.5rem;
+  border: none;
+  border-radius: 0.2rem;
+  background: var(--submit);
+  color: var(--white);
+}
+
+.cancel-btn {
+  padding: 0.8rem;
+  margin: 1.5rem 0.5rem;
+  border: none;
+  border-radius: 0.2rem;
+  background: var(--white);
+  color: var(--cancel);
+}
+
+.link-container {
+  display: flex;
+  margin: 1rem 0.5rem;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  align-items: center;
+  font-weight: 500;
+  color: var(--submit);
+}
+.link-text {
+  border-bottom: 2px solid var(--submit);
+  margin: 0 0.5rem;
+}
+.main-drop-container {
+  margin: 1rem;
+}
